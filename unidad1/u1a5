@@ -1,0 +1,236 @@
+<!-- 
+    Unidad: Parcial No. 1
+    Descripción: Ejercicio con enlaces
+    Fecha: 02/02/2024
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title> UPSLP - Programaci&oacute;n Web I </title>
+
+    </head>
+
+    <body>
+
+        <h1>&laquo;&laquo;&laquo; Glosario de Artefactos de Genshin Impact &laquo;&laquo;&laquo;</h1>
+
+        <a href="#a">[ a ]</a>         <a href="#be">[ b ]</a>      <a href="#ce">[ c ]</a>
+        <a href="#de">[ d ]</a>        <a href="#e">[ e ]</a>       <a href="#efe">[ f ]</a>
+        <a href="#ge">[ g ]</a>        <a href="#hache">[ h ]</a>   <a href="#i">[ i ]</a>
+        <a href="#jota">[ j ]</a>      <a href="#ka">[ k ]</a>      <a href="#ele">[ l ]</a>   
+        <a href="#eme">[ m ]</a>       <a href="#ene">[ n ]</a>     <a href="#o">[ o ]</a>   
+        <a href="#pe">[ p ]</a>        <a href="#qu">[ q ]</a>      <a href="#erre">[ r ]</a>   
+        <a href="#ese">[ s ]</a>       <a href="#te">[ t ]</a>      <a href="#u">[ u ]</a>   
+        <a href="#uve">[ v ]</a>       <a href="#dobleu">[ w ]</a>  <a href="#equis">[ x ]</a>   
+        <a href="#igriega">[ y ]</a>   <a href="#zeta">[ z ]</a>
+
+        <h2 id="a"> Letra A </h2>
+            <details>
+                <summary> [a] </summary>
+                <ul>
+                    <li>Lista de palabras, t&eacute;rminos o definiciones que comienzan con "Z"</li>
+                </ul>
+            </details>
+
+        <h2 id="be"> Letra B </h2>
+            <details>
+                <summary> [b] </summary>
+                <ul>
+                    <li>Lista de palabras, t&eacute;rminos o definiciones que comienzan con "Z"</li>
+                </ul>
+            </details>
+
+        <h2 id="ce"> Letra C </h2>
+            <details>
+                <summary> [c] </summary>
+                <ul>
+                    <li>Lista de palabras, t&eacute;rminos o definiciones que comienzan con "Z"</li>
+                </ul>
+            </details>
+
+        <h2 id="de"> Letra D </h2>
+            <details>
+                <summary> [d] </summary>
+                <ul>
+                    <li>Lista de palabras, t&eacute;rminos o definiciones que comienzan con "Z"</li>
+                </ul>
+            </details>
+
+        <h2 id="e"> Letra E </h2>
+            <details>
+                <summary> [e] </summary>
+                <ul>
+                    <li>Lista de palabras, t&eacute;rminos o definiciones que comienzan con "Z"</li>
+                </ul>
+            </details>
+
+        <h2 id="efe"> Letra F </h2>
+            <details>
+                <summary> [f] </summary>
+                <ul>
+                    <li>Lista de palabras, t&eacute;rminos o definiciones que comienzan con "Z"</li>
+                </ul>
+            </details>
+
+        <h2 id="ge"> Letra G </h2>
+            <details>
+                <summary> [g] </summary>
+                <ul>
+                    <li>Lista de palabras, t&eacute;rminos o definiciones que comienzan con "Z"</li>
+                </ul>
+            </details>
+
+        <h2 id="hache"> Letra H </h2>
+            <details>
+                <summary> [h] </summary>
+                <ul>
+                    <li>Lista de palabras, t&eacute;rminos o definiciones que comienzan con "Z"</li>
+                </ul>
+            </details>
+
+        <h2 id="i"> Letra I </h2>
+            <details>
+                <summary> [i] </summary>
+                <ul>
+                    <li>Lista de palabras, t&eacute;rminos o definiciones que comienzan con "Z"</li>
+                </ul>
+            </details>
+
+        <h2 id="jota"> Letra J </h2>
+            <details>
+                <summary> [j] </summary>
+                <ul>
+                    <li>Lista de palabras, t&eacute;rminos o definiciones que comienzan con "Z"</li>
+                </ul>
+            </details>
+
+        <h2 id="ka"> Letra K </h2>
+            <details>
+                <summary> [k] </summary>
+                <ul>
+                    <li>Lista de palabras, t&eacute;rminos o definiciones que comienzan con "Z"</li>
+                </ul>
+            </details>
+
+        <h2 id="ele"> Letra L </h2>
+            <details>
+                <summary> [l] </summary>
+                <ul>
+                    <li>Lista de palabras, t&eacute;rminos o definiciones que comienzan con "Z"</li>
+                </ul>
+            </details>
+
+        <h2 id="eme"> Letra M </h2>
+            <details>
+                <summary> [m] </summary>
+                <ul>
+                    <li>Lista de palabras, t&eacute;rminos o definiciones que comienzan con "Z"</li>
+                </ul>
+            </details>
+
+        <h2 id="ene"> Letra N </h2>
+            <details>
+                <summary> [n] </summary>
+                <ul>
+                    <li>Lista de palabras, t&eacute;rminos o definiciones que comienzan con "Z"</li>
+                </ul>
+            </details>
+
+        <h2 id="o"> Letra O </h2>
+            <details>
+                <summary> [o] </summary>
+                <ul>
+                    <li>Lista de palabras, t&eacute;rminos o definiciones que comienzan con "Z"</li>
+                </ul>
+            </details>
+
+        <h2 id="pe"> Letra P </h2>
+            <details>
+                <summary> [p] </summary>
+                <ul>
+                    <li>Lista de palabras, t&eacute;rminos o definiciones que comienzan con "Z"</li>
+                </ul>
+            </details>
+
+        <h2 id="qu"> Letra Q </h2>
+            <details>
+                <summary> [q] </summary>
+                <ul>
+                    <li>Lista de palabras, t&eacute;rminos o definiciones que comienzan con "Z"</li>
+                </ul>
+            </details>
+        <h2 id="erre"> Letra R </h2>
+            <details>
+                <summary> [r] </summary>
+                <ul>
+                    <li>Lista de palabras, t&eacute;rminos o definiciones que comienzan con "Z"</li>
+                </ul>
+            </details>
+
+        <h2 id="ese"> Letra S </h2>
+            <details>
+                <summary> [s] </summary>
+                <ul>
+                    <li>Lista de palabras, t&eacute;rminos o definiciones que comienzan con "Z"</li>
+                </ul>
+            </details>
+
+        <h2 id="te"> Letra T </h2>
+            <details>
+                <summary> [t] </summary>
+                <ul>
+                    <li>Lista de palabras, t&eacute;rminos o definiciones que comienzan con "Z"</li>
+                </ul>
+            </details>
+
+        <h2 id="uu"> Letra U </h2>
+            <details>
+                <summary> [u] </summary>
+                <ul>
+                    <li>Lista de palabras, t&eacute;rminos o definiciones que comienzan con "Z"</li>
+                </ul>
+            </details>
+
+        <h2 id="uve"> Letra V </h2>
+            <details>
+                <summary> [v] </summary>
+                <ul>
+                    <li>Lista de palabras, t&eacute;rminos o definiciones que comienzan con "Z"</li>
+                </ul>
+            </details>
+
+        <h2 id="dobleu"> Letra W </h2>
+            <details>
+                <summary> [w] </summary>
+                <ul>
+                    <li>Lista de palabras, t&eacute;rminos o definiciones que comienzan con "Z"</li>
+                </ul>
+            </details>
+
+        <h2 id="equis"> Letra X </h2>
+            <details>
+                <summary> [x] </summary>
+                <ul>
+                    <li>Lista de palabras, t&eacute;rminos o definiciones que comienzan con "Z"</li>
+                </ul>
+            </details>
+
+        <h2 id="igriega"> Letra Y </h2>
+            <details>
+                <summary> [y] </summary>
+                <ul>
+                    <li>Lista de palabras, t&eacute;rminos o definiciones que comienzan con "Z"</li>
+                </ul>
+            </details>
+
+        <h2 id="zeta"> Letra Z </h2>
+            <details>
+                <summary> [z] </summary>
+                <ul>
+                    <li>Lista de palabras, t&eacute;rminos o definiciones que comienzan con "Z"</li>
+                </ul>
+            </details>
+
+    </body>
+</html>
