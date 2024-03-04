@@ -1,0 +1,89 @@
+<!-- 
+    Unidad: Parcial No. 1
+    Descripción: Ejercicio con imagenes
+    Fecha: 22/02/2024
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title> UPSLP - Programaci&oacute;n Web I </title>
+
+</head>
+
+<body>
+
+    <h1>Etiquetas de elementos multimedia</h1>
+
+
+    <!-- Etiqueta <img> -->
+    <h2>Etiqueta "img"</h2>
+
+    <!-- No se modifica el tamaño original de la imagen -->
+    <details><summary>Imagen de Resoluci&oacute;n Original - Zhongli Ilustracion Evento</summary>
+    <br>
+    <img src="Imagenes u2a1/Zhongli.jpeg" alt="Zhongli Skin">
+    </details>
+        
+    <!-- Solo se modifica la altura original de la imagen -->
+    <details><summary>Imagen de Altura Reducida - Zhongli Ilustracion Evento</summary>
+    <br>
+    <img src="Imagenes u2a1/Zhongli.jpeg" height="250px" alt="Zhongli Skin">
+    </details>
+
+    <!-- Solo se modifica la anchura original de la imagen -->
+    <details><summary>Imagen de Anchura Reducida - Zhongli Ilustracion Evento</summary>
+    <br>
+    <img src="Imagenes u2a1/Zhongli.jpeg" width="500px" alt="Zhongli Skin">
+    </details>
+
+    <!-- Se modifica la altura y anchura original de la imagen -->
+    <details><summary>Imagen con Aspecto Modificado - Zhongli Ilustracion Evento</summary>
+    <br>
+    <img src="Imagenes u2a1/Zhongli.jpeg" width="500px" height="500px" alt="Zhongli Skin">
+    </details>
+
+    <!-- Se ajusta la altura y anchura original de la imagen para que se adapte a la pagina -->
+    <details><summary>Imagen con Anchura (Automatica) - Zhongli Ilustracion Evento</summary>
+    <br>
+    <img src="Imagenes u2a1/Zhongli.jpeg" width="100%" alt="Zhongli Skin">
+    </details>
+
+    <!-- Etiqueta <figure> -->
+    <!-- Permite encuadrr una imagen con su respectiva descripcion al pie -->    
+    
+    <details>
+    <summary>Etiqueta "figure"</summary>
+    <br>
+    <figure>
+        <img src="Imagenes u2a1/Zhongli.jpeg" width="100%" alt="Zhongli Skin">
+        <figcaption>Ilustracion del 3<sup>er</sup> aniversario de Genshin Impact</figcaption>
+    </figure>
+    </details>
+
+    <details>
+    <summary>Imagen como enlace</summary>
+    <br>
+    <figure>
+        <a href="Imagenes u2a1/Zhongli.jpeg" target="_blank">
+            <img src="Imagenes u2a1/Paimon Link.jpg" alt="Paimon" width="10%">
+        </a>
+        <figcaption>Haga click en Paimon para ir al sitio</figcaption>
+    </figure>
+    </details>
+
+    <h2>Mapa con Im&aacute;genes</h2>
+    <details>
+    <summary>Overwatch 2</summary>  
+    <br>
+    <img usemap="#Overwatch_Heroes" src="Imagenes u2a1/Overwatch_Heroes.jpg">
+    <map name="Overwatch_Heroes">
+        <area shape="rect" coords="432,296,511,395" alt="Hanzo" target="_blank" href="https://overwatch.blizzard.com/es-mx/heroes/hanzo/">
+        <area shape="circle" coords="259,549,32" alt="Wrecking Ball" target="_blank" href="https://overwatch.blizzard.com/es-mx/heroes/wrecking-ball/">
+    </map>
+    </details>
+
+</body>
+
+</html>
