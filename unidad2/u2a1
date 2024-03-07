@@ -1,0 +1,278 @@
+<!-- 
+    Unidad: Parcial No. 2
+    Descripción: Examen Unidad 1
+    Fecha: 27/02/2024
+-->
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Productos Notables</title>
+
+</head>
+
+<body>
+
+    <h3>F&oacute;rmulas de productos notables con Entidades</h3>
+
+    <ol>
+        <li><var>(a+b)&sup2;</var> = <var>a&sup2;</var> + <var>2ab</var> + <var>b&sup2;</var></li>
+    
+        <li><var>(a-b)&sup2;</var> = <var>a&sup2;</var> - <var>2ab</var> + <var>b&sup2;</var></li>
+    
+        <li><var>(a+b)(a-b)</var> = <var>a&sup2;</var> - <var>b&sup2;</var></li>
+    
+        <li><var>(x+a)(x+b)</var> = <var>x&sup2;</var> + <var>(a+b)x</var> + <var>ab</var></li>
+    
+        <li><var>(ax+b)(cx+d)</var> = <var>acx&sup2;</var> + <var>(ad+bc)x</var> + <var>bd&sup2;</var></li>
+    
+        <li><var>(a+b)&sup3;</var> = <var>a&sup3;</var> + <var>3a&sup2;b</var> + <var>3ab&sup2;</var> + <var>b&sup3;</var></li>
+    
+        <li><var>(a-b)&sup3;</var> = <var>a&sup3;</var> - <var>3a&sup2;b</var> + <var>3ab&sup2;</var> - <var>b&sup3;</var></li>
+    
+        <li><var>(a+b)(a&sup2;-ab+b&sup2;)</var></li>
+    
+        <li><var>(a-b)(a&sup2;+ab+b&sup2;)</var></li>
+    </ol>
+
+<!-- 
+    Productos Notables con Etiquetas
+-->
+
+<h3>F&oacute;rmulas de productos notables con Etiquetas</h3>
+
+<ol>
+    <li><var>(a+b)<sup>2</sup></var> = <var>a<sup>2</sup></var> + <var>2ab</var> + <var>b<sup>2</sup></var></li>
+
+    <li><var>(a-b)<sup>2</sup></var> = <var>a<sup>2</sup></var> - <var>2ab</var> + <var>b<sup>2</sup></var></li>
+
+    <li><var>(a+b)(a-b)</var> = <var>a<sup>2</sup></var> - <var>b<sup>2</sup></var></li>
+
+    <li><var>(x+a)(x+b)</var> = <var>x<sup>2</sup></var> + <var>(a+b)x</var> + <var>ab</var></li>
+
+    <li><var>(ax+b)(cx+d)</var> = <var>acx<sup>2</sup></var> + <var>(ad+bc)x</var> + <var>bd<sup>2</sup></var></li>
+
+    <li><var>(a+b)<sup>3</sup></var> = <var>a<sup>3</sup></var> + <var>3a<sup>2</sup>b</var> + <var>3ab<sup>2</sup></var> + <var>b<sup>3</sup></var></li>
+
+    <li><var>(a-b)<sup>3</sup></var> = <var>a<sup>3</sup></var> - <var>3a<sup>2</sup>b</var> + <var>3ab<sup>2</sup></var> - <var>b<sup>3</sup></var></li>
+
+    <li><var>(a+b)(a<sup>2</sup>-ab+b<sup>2</sup>)</var></li>
+
+    <li><var>(a-b)(a<sup>2</sup>+ab+b<sup>2</sup>)</var></li>
+</ol>
+
+<!-- 
+    Unidad: Parcial No. 2
+    Descripción: Examen Unidad 1
+    Fecha: 27/02/2024
+-->
+
+<h3>Elementos Qu&iacute;micos con Etiquetas</h3>
+
+<details>
+    <summary>Hidr&oacute;geno [<samp> H </samp>]</summary>
+
+    <ul>
+        <li>Nombre: <samp>Hidr&oacute;geno</samp></li>
+        <li>S&iacute;mbolo: [<samp> H </samp>]</li>
+        <li>Configuraci&oacute;n Electr&oacute;nica: <samp>1s<sup>1</sup></samp></li>
+        <li>Imagen: <img src="../U2/Imagenes Elementos Quimicos/hidrogeno.png" width="25px" height="25px" alt="Hidr&oacute;geno"></li>
+    </ul>
+</details>
+
+<details>
+    <summary>Sodio [<samp> Na </samp>]</summary>
+
+    <ul>
+        <li>Nombre: <samp>Sodio</samp></li>
+        <li>S&iacute;mbolo: [<samp> Na </samp>]</li>
+        <li>Configuraci&oacute;n Electr&oacute;nica: <samp>[Ne] 3s<sup>1</sup></samp></li>
+        <li>Imagen: <img src="../U2/Imagenes Elementos Quimicos/sodio.png" width="25px" height="25px" alt="Sodio"></li></li>
+    </ul>
+</details>
+
+<details>
+    <summary>Titanio [<samp> Ti </samp>]</summary>
+
+    <ul>
+        <li>Nombre: <samp>Titanio</samp></li>
+        <li>S&iacute;mbolo: [<samp> Ti </samp>]</li>
+        <li>Configuraci&oacute;n Electr&oacute;nica: <samp>[Ar] 3d<sup>2</sup> 4s<sup>2</sup></samp></li>
+        <li>Imagen: <img src="../U2/Imagenes Elementos Quimicos/titanio.png" width="25px" height="25px" alt="Titanio"></li></li>
+    </ul>
+</details>
+
+<details>
+    <summary>Hierro [<samp> Fe </samp>]</summary>
+
+    <ul>
+        <li>Nombre: <samp>Hierro</samp></li>
+        <li>S&iacute;mbolo: [<samp> Fe </samp>]</li>
+        <li>Configuraci&oacute;n Electr&oacute;nica: [Ar] 3d<sup>6</sup> 4s<sup>2</sup><samp></samp></li>
+        <li>Imagen: <img src="../U2/Imagenes Elementos Quimicos/hierro.png" width="25px" height="25px" alt=""></li></li>
+    </ul>
+</details>
+
+<details>
+    <summary>Plata [<samp> Ag </samp>]</summary>
+
+    <ul>
+        <li>Nombre: <samp>Plata</samp></li>
+        <li>S&iacute;mbolo: [<samp> Ag </samp>]</li>
+        <li>Configuraci&oacute;n Electr&oacute;nica: <samp>[Kr] 4d<sup>10</sup> 5s<sup>1</sup></samp></li>
+        <li>Imagen: <img src="../U2/Imagenes Elementos Quimicos/plata.png" width="25px" height="25px" alt=""></li></li>
+    </ul>
+</details>
+
+<details>
+    <summary>Oro [<samp> Au </samp>]</summary>
+
+    <ul>
+        <li>Nombre: <samp>Oro</samp></li>
+        <li>S&iacute;mbolo: [<samp> Au </samp>]</li>
+        <li>Configuraci&oacute;n Electr&oacute;nica: <samp>[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>1</sup></samp></li>
+        <li>Imagen: <img src="../U2/Imagenes Elementos Quimicos/oro.png" width="25px" height="25px" alt=""></li></li>
+    </ul>
+</details>
+
+<details>
+    <summary>Carbono [<samp> C </samp>]</summary>
+
+    <ul>
+        <li>Nombre: Carbono<samp></samp></li>
+        <li>S&iacute;mbolo: [<samp> C </samp>]</li>
+        <li>Configuraci&oacute;n <samp>Electr&oacute;nica: [He] 2s<sup>2</sup> 2p<sup>2</sup></samp></li>
+        <li>Imagen: <img src="../U2/Imagenes Elementos Quimicos/carbono.png" width="25px" height="25px" alt=""></li></li>
+    </ul>
+</details>
+
+<details>
+    <summary>Ox&iacute;geno [<samp> O </samp>]</summary>
+
+    <ul>
+        <li>Nombre: <samp>Ox&iacute;geno</samp></li>
+        <li>S&iacute;mbolo: [<samp> O </samp>]</li>
+        <li>Configuraci&oacute;n Electr&oacute;nica: <samp>[He] 2s<sup>2</sup> 2p<sup>4</sup></samp></li>
+        <li>Imagen: <img src="../U2/Imagenes Elementos Quimicos/oxigeno.png" width="25px" height="25px" alt=""></li></li>
+    </ul>
+</details>
+
+<details>
+    <summary>Cloro [<samp> Cl </samp>]</summary>
+
+    <ul>
+        <li>Nombre: <samp>Cloro</samp></li>
+        <li>S&iacute;mbolo: [<samp> Cl </samp>]</li>
+        <li>Configuraci&oacute;n Electr&oacute;nica: <samp>[Ne] 3s<sup>2</sup> 3p<sup>5</sup></samp></li>
+        <li>Imagen: <img src="../U2/Imagenes Elementos Quimicos/cloro.png" width="25px" height="25px" alt=""></li></li>
+    </ul>
+</details>
+    
+<!-- 
+    Elementos Quimicos con entidades
+-->
+
+<h3>Elementos Qu&iacute;micos con Entidades</h3>
+
+<details>
+    <summary>Hidr&oacute;geno [<samp> H </samp>]</summary>
+
+    <ul>
+        <li>Nombre: <samp>Hidr&oacute;geno</samp></li>
+        <li>S&iacute;mbolo: [<samp> H </samp>]</li>
+        <li>Configuraci&oacute;n Electr&oacute;nica: <samp>1s&sup1;</samp></li>
+        <li>Imagen: <img src="../U2/Imagenes Elementos Quimicos/hidrogeno.png" width="25px" height="25px" alt=""></li>
+    </ul>
+</details>
+
+<details>
+    <summary>Sodio [<samp> Na </samp>]</summary>
+
+    <ul>
+        <li>Nombre: <samp>Sodio</samp></li>
+        <li>S&iacute;mbolo: [<samp> Na </samp>]</li>
+        <li>Configuraci&oacute;n Electr&oacute;nica: <samp>[Ne] 3s&sup1;</samp></li>
+        <li>Imagen: <img src="../U2/Imagenes Elementos Quimicos/sodio.png" width="25px" height="25px" alt=""></li></li>
+    </ul>
+</details>
+
+<details>
+    <summary>Titanio [<samp> Ti </samp>]</summary>
+
+    <ul>
+        <li>Nombre: <samp>Titanio</samp></li>
+        <li>S&iacute;mbolo: [<samp> Ti </samp>]</li>
+        <li>Configuraci&oacute;n Electr&oacute;nica: <samp>[Ar] 3d&sup2; 4s&sup2;</samp></li>
+        <li>Imagen: <img src="../U2/Imagenes Elementos Quimicos/titanio.png" width="25px" height="25px" alt=""></li></li>
+    </ul>
+</details>
+
+<details>
+    <summary>Hierro [<samp> Fe </samp>]</summary>
+
+    <ul>
+        <li>Nombre: <samp>Hierro</samp></li>
+        <li>S&iacute;mbolo: [<samp> Fe </samp>]</li>
+        <li>Configuraci&oacute;n Electr&oacute;nica: [Ar] 3d&#8310; 4s&sup2;<samp></samp></li>
+        <li>Imagen: <img src="../U2/Imagenes Elementos Quimicos/hierro.png" width="25px" height="25px" alt=""></li></li>
+    </ul>
+</details>
+
+<details>
+    <summary>Plata [<samp> Ag </samp>]</summary>
+
+    <ul>
+        <li>Nombre: <samp>Plata</samp></li>
+        <li>S&iacute;mbolo: [<samp> Ag </samp>]</li>
+        <li>Configuraci&oacute;n Electr&oacute;nica: <samp>[Kr] 4d&sup1;&#8304; 5s&sup1;</samp></li>
+        <li>Imagen: <img src="../U2/Imagenes Elementos Quimicos/plata.png" width="25px" height="25px" alt=""></li></li>
+    </ul>
+</details>
+
+<details>
+    <summary>Oro [<samp> Au </samp>]</summary>
+
+    <ul>
+        <li>Nombre: <samp>Oro</samp></li>
+        <li>S&iacute;mbolo: [<samp> Au </samp>]</li>
+        <li>Configuraci&oacute;n Electr&oacute;nica: <samp>[Xe] 4f&sup1;&#8308; 5d&sup1;&#8304; 6s&sup1;</samp></li>
+        <li>Imagen: <img src="../U2/Imagenes Elementos Quimicos/oro.png" width="25px" height="25px" alt=""></li></li>
+    </ul>
+</details>
+
+<details>
+    <summary>Carbono [<samp> C </samp>]</summary>
+
+    <ul>
+        <li>Nombre: Carbono<samp></samp></li>
+        <li>S&iacute;mbolo: [<samp> C </samp>]</li>
+        <li>Configuraci&oacute;n <samp>Electr&oacute;nica: [He] 2s&sup2; 2p&sup2;</samp></li>
+        <li>Imagen: <img src="../U2/Imagenes Elementos Quimicos/carbono.png" width="25px" height="25px" alt=""></li></li>
+    </ul>
+</details>
+
+<details>
+    <summary>Ox&iacute;geno [<samp> O </samp>]</summary>
+
+    <ul>
+        <li>Nombre: <samp>Ox&iacute;geno</samp></li>
+        <li>S&iacute;mbolo: [<samp> O </samp>]</li>
+        <li>Configuraci&oacute;n Electr&oacute;nica: <samp>[He] 2s&sup2; 2p&#8308;</samp></li>
+        <li>Imagen: <img src="../U2/Imagenes Elementos Quimicos/oxigeno.png" width="25px" height="25px" alt=""></li></li>
+    </ul>
+</details>
+
+<details>
+    <summary>Cloro [<samp> Cl </samp>]</summary>
+
+    <ul>
+        <li>Nombre: <samp>Cloro</samp></li>
+        <li>S&iacute;mbolo: [<samp> Cl </samp>]</li>
+        <li>Configuraci&oacute;n Electr&oacute;nica: <samp>[Ne] 3s&sup2; 3p&#8309;</samp></li>
+        <li>Imagen: <img src="../U2/Imagenes Elementos Quimicos/cloro.png" width="25px" height="25px" alt=""></li></li>
+    </ul>
+</details>
+
+</body>
+
+</html>
