@@ -1,0 +1,420 @@
+  <!-- 
+    Unidad: Parcial No. 2
+    Descripción: Formularios
+    Fecha: 01/03/2024
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+<h1>Formularios</h1>
+
+<h3>Formulario con contrase&ntilde;a</h3>
+
+<form class="form-horizontal">
+  <fieldset>
+  
+  <!-- Form Name -->
+  <legend>SelfService</legend>
+  
+  <!-- Text input-->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="txtUsuario">Usuario</label>  
+    <div class="col-md-4">
+    <input id="txtUsuario" name="txtUsuario" type="text" placeholder="Igresa tu matricula" class="form-control input-md" required="">
+      
+    </div>
+  </div>
+  
+  <!-- Password input-->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="txtPasswd">Contraseña</label>
+    <div class="col-md-4">
+      <input id="txtPasswd" name="txtPasswd" type="password" placeholder="Ingresa tu contraseña" class="form-control input-md" required="">
+      
+    </div>
+  </div>
+  
+  <!-- Button -->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="botonAceptar"></label>
+    <div class="col-md-4">
+      <button id="botonAceptar" name="botonAceptar" class="btn btn-inverse">Aceptar</button>
+    </div>
+  </div>
+  
+  <br>
+
+  <a href="#">¿Olvidaste tu contraseña?</a>
+
+  </fieldset>
+
+  <fieldset>
+    <legend>Redes sociales</legend>
+    <img src="../U2/Imagenes Elementos Quimicos/fb.png" height="20px">
+    <img src="../U2/Imagenes Elementos Quimicos/tw.png" height="20px">
+    <img src="../U2/Imagenes Elementos Quimicos/ig.png" height="20px">
+  </fieldset>
+
+  </form>
+
+<h3>Formulario Curso de Verano</h3>
+
+  <form class="form-horizontal">
+    <fieldset>
+    
+    <!-- Form Name -->
+    <legend>Información de Contacto</legend>
+    
+    <!-- Appended Input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="txtCorreo">Correo:</label>
+      <div class="col-md-6">
+        <div class="input-group">
+          <input id="txtCorreo" name="txtCorreo" class="form-control" placeholder="Escribe tu correo electronico" type="text" required="">
+          <span class="input-group-addon">@upslp.edu.mx</span>
+        </div>
+        
+      </div>
+    </div>
+    <!-- Prepended text-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="txtCarrera">Institución</label>
+      <div class="col-md-6">
+        <div class="input-group">
+          <span class="input-group-addon">UPSLP</span>
+          <input id="txtCarrera" name="txtCarrera" class="form-control" placeholder="Escribe tu carrera" type="text" required="">
+        </div>
+        <p class="help-block">Ej. ITI, ITEM, ITMA, ISTI, ITMA, LAG, LMI</p>
+      </div>
+    </div>
+    
+    <!-- Multiple Radios -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="VWhts">Contacto via WhatsApp</label>
+      <div class="col-md-4">
+      <div class="radio">
+        <label for="VWhts-0">
+          <input type="radio" name="VWhts" id="VWhts-0" value="1" checked="checked">
+          No
+        </label>
+      </div>
+      <div class="radio">
+        <label for="VWhts-1">
+          <input type="radio" name="VWhts" id="VWhts-1" value="2">
+          Si
+        </label>
+      </div>
+      </div>
+    </div>
+    
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="txtNum">Número celular:</label>  
+      <div class="col-md-4">
+      <input id="txtNum" name="txtNum" type="text" placeholder="(444) 123 - 456" class="form-control input-md">
+        
+      </div>
+    </div>
+    
+    <!-- Multiple Checkboxes -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="Asignaturas">Asignaturas disponibles</label>
+      <div class="col-md-4">
+      <div class="checkbox">
+        <label for="Asignaturas-0">
+          <input type="checkbox" name="Asignaturas" id="Asignaturas-0" value="1">
+          Química
+        </label>
+      </div>
+      <div class="checkbox">
+        <label for="Asignaturas-1">
+          <input type="checkbox" name="Asignaturas" id="Asignaturas-1" value="2">
+          Física
+        </label>
+      </div>
+      <div class="checkbox">
+        <label for="Asignaturas-2">
+          <input type="checkbox" name="Asignaturas" id="Asignaturas-2" value="3">
+          Matemáticas
+        </label>
+      </div>
+      <div class="checkbox">
+        <label for="Asignaturas-3">
+          <input type="checkbox" name="Asignaturas" id="Asignaturas-3" value="4">
+          Inglés
+        </label>
+      </div>
+      <div class="checkbox">
+        <label for="Asignaturas-4">
+          <input type="checkbox" name="Asignaturas" id="Asignaturas-4" value="5">
+          Programación
+        </label>
+      </div>
+      <div class="checkbox">
+        <label for="Asignaturas-5">
+          <input type="checkbox" name="Asignaturas" id="Asignaturas-5" value="6">
+          Núcleo
+        </label>
+      </div>
+      </div>
+    </div>
+    
+    <!-- Textarea -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="txtInfoadd">Información adicional:</label>
+      <div class="col-md-4">                     
+        <textarea class="form-control" id="txtInfoadd" name="txtInfoadd"></textarea>
+      </div>
+    </div>
+    
+    <!-- Button (Double) -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="txtEnviar"></label>
+      <div class="col-md-8">
+        <button id="txtEnviar" name="txtEnviar" class="btn btn-inverse">Enviar</button>
+        <button id="txtBorrar" name="txtBorrar" class="btn btn-inverse">Borrar</button>
+      </div>
+    </div>
+    
+    </fieldset>
+    </form>
+
+<h3>Formulario de Subway</h3>
+
+<form class="form-horizontal">
+  <fieldset>
+  
+  <!-- Form Name -->
+  <legend>SUBWAY</legend>
+  
+  <!-- Text input-->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="txt.cliente">Cliente</label>  
+    <div class="col-md-5">
+    <input id="txt.cliente" name="txt.cliente" type="text" placeholder="Escribe tu nombre aqui" class="form-control input-md" required="">
+      
+    </div>
+  </div>
+  
+  <!-- Prepended text-->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="txt.telefono">Telefono</label>
+    <div class="col-md-5">
+      <div class="input-group">
+        <span class="input-group-addon">+52</span>
+        <input id="txt.telefono" name="txt.telefono" class="form-control" placeholder="444 123-4567" type="text" required="">
+      </div>
+      
+    </div>
+  </div>
+  
+  <!-- Select Basic -->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="carne">Proteina</label>
+    <div class="col-md-5">
+      <select id="carne" name="carne" class="form-control">
+        <option value="1">Pollo</option>
+        <option value="2">Res</option>
+        <option value="3">Albóndigas</option>
+        <option value="4">Jamon</option>
+        <option value="5">Pavo</option>
+        <option value="6">Italiano</option>
+        <option value="7">Costillas</option>
+      </select>
+    </div>
+  </div>
+  
+  <!-- Multiple Radios -->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="tamaño">Tamaño</label>
+    <div class="col-md-4">
+    <div class="radio">
+      <label for="tamaño-0">
+        <input type="radio" name="tamaño" id="tamaño-0" value="1" checked="checked">
+        15 cm
+      </label>
+    </div>
+    <div class="radio">
+      <label for="tamaño-1">
+        <input type="radio" name="tamaño" id="tamaño-1" value="2">
+        30 cm
+      </label>
+    </div>
+    </div>
+  </div>
+  
+  <!-- Multiple Radios (inline) -->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="pan">Tpo de pan</label>
+    <div class="col-md-4"> 
+      <label class="radio-inline" for="pan-0">
+        <input type="radio" name="pan" id="pan-0" value="1" checked="checked">
+        Blanco
+      </label> 
+      <label class="radio-inline" for="pan-1">
+        <input type="radio" name="pan" id="pan-1" value="2">
+        Ajo rostizado
+      </label> 
+      <label class="radio-inline" for="pan-2">
+        <input type="radio" name="pan" id="pan-2" value="3">
+        Integral
+      </label> 
+      <label class="radio-inline" for="pan-3">
+        <input type="radio" name="pan" id="pan-3" value="4">
+        Con especias
+      </label>
+    </div>
+  </div>
+  
+  <!-- Multiple Radios -->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="termino">Termino</label>
+    <div class="col-md-4">
+    <div class="radio">
+      <label for="termino-0">
+        <input type="radio" name="termino" id="termino-0" value="1" checked="checked">
+        Caliente
+      </label>
+    </div>
+    <div class="radio">
+      <label for="termino-1">
+        <input type="radio" name="termino" id="termino-1" value="2">
+        Tostado
+      </label>
+    </div>
+    </div>
+  </div>
+  
+  <!-- Multiple Checkboxes -->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="extras">Extras</label>
+    <div class="col-md-4">
+    <div class="checkbox">
+      <label for="extras-0">
+        <input type="checkbox" name="extras" id="extras-0" value="1">
+        Lechuga
+      </label>
+    </div>
+    <div class="checkbox">
+      <label for="extras-1">
+        <input type="checkbox" name="extras" id="extras-1" value="2">
+        Jitomate
+      </label>
+    </div>
+    <div class="checkbox">
+      <label for="extras-2">
+        <input type="checkbox" name="extras" id="extras-2" value="3">
+        Pepino
+      </label>
+    </div>
+    <div class="checkbox">
+      <label for="extras-3">
+        <input type="checkbox" name="extras" id="extras-3" value="4">
+        Cebolla
+      </label>
+    </div>
+    <div class="checkbox">
+      <label for="extras-4">
+        <input type="checkbox" name="extras" id="extras-4" value="5">
+        Pimiento verde
+      </label>
+    </div>
+    <div class="checkbox">
+      <label for="extras-5">
+        <input type="checkbox" name="extras" id="extras-5" value="6">
+        Mostaza
+      </label>
+    </div>
+    <div class="checkbox">
+      <label for="extras-6">
+        <input type="checkbox" name="extras" id="extras-6" value="7">
+        Mostaza dulce
+      </label>
+    </div>
+    <div class="checkbox">
+      <label for="extras-7">
+        <input type="checkbox" name="extras" id="extras-7" value="8">
+        Mayonesa vinagreta
+      </label>
+    </div>
+    <div class="checkbox">
+      <label for="extras-8">
+        <input type="checkbox" name="extras" id="extras-8" value="9">
+        Cebolla dulce
+      </label>
+    </div>
+    <div class="checkbox">
+      <label for="extras-9">
+        <input type="checkbox" name="extras" id="extras-9" value="10">
+        Ranch
+      </label>
+    </div>
+    </div>
+  </div>
+  
+  <!-- Multiple Radios -->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="pago">Pago</label>
+    <div class="col-md-4">
+    <div class="radio">
+      <label for="pago-0">
+        <input type="radio" name="pago" id="pago-0" value="1" checked="checked">
+        Efectivo
+      </label>
+    </div>
+    <div class="radio">
+      <label for="pago-1">
+        <input type="radio" name="pago" id="pago-1" value="2">
+        Tatjeta
+      </label>
+    </div>
+    </div>
+  </div>
+  
+  <!-- Button -->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="ordenar"></label>
+    <div class="col-md-4">
+      <button id="ordenar" name="ordenar" class="btn btn-default">Ordenar</button>
+    </div>
+  </div>
+  
+  </fieldset>
+  </form>
+
+<h3>Formulario para un centro de Impresiones</h3>
+
+  <form>
+    <fieldset>
+      <legend>Office Depot</legend>
+        <label>Selecione el archivo:</label>
+          <input type="file">
+          <br>
+      <label>Selecciona el color de tinta</label>
+        <input type="color">
+        <br>
+      <label>Indique cuantas copias necesita:</label>
+        <input type="number">
+        <br>
+      <label>Costo por hoja impresa</label>
+        <input type="text" value="$2.00" readonly>
+        <br>
+      <label>Entrega programada</label>
+        <br>
+        <label>Fecha:</label><input type="date">
+        <label>Hora:</label><input type="time">
+        <br>
+      <input type="submit"><input type="reset">
+    </fieldset>
+  </form>
+
+</body>
+
+</html>
+
