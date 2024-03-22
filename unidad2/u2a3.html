@@ -7,7 +7,7 @@
 <html>
 
 <head>
-
+  <title> UPSLP - Programaci&oacute;n Web I </title>
 </head>
 
 <body>
@@ -411,6 +411,98 @@
         <label>Hora:</label><input type="time">
         <br>
       <input type="submit"><input type="reset">
+    </fieldset>
+  </form>
+
+<h3>Sistema de calificaciones</h3>
+<h5>Historial acad&eacute;mico</h5>
+
+  <form>
+    <fieldset>
+      <legend>185407 - Jes&uacute;s Emmanuel D&iacute;az Ramos</legend>
+      <label>Numero de identificacion:</label>
+      <input type="hidden" value="185407" disabled>
+      <!--Lista de semestres-->
+      <ol>
+        <li>
+          Semestre I
+          <!--Lista de materias del semestre-->
+          <ol type="I">
+            <li>Introducci&oacute;n a las Matem&aacute;ticas<br>
+              <input type="range" min="0" max="10" value="9">
+            </li>
+            <li>Introducci&oacute;n a la F&iacute;sica<br>
+              <input type="range" min="0" max="10" value="9">
+            </li>
+            <li>Introducci&oacute;n a la Computaci&oacute;n<br>
+              <input type="range" min="0" max="10" value="10">
+            </li>
+            <li>Taller de certificaci&oacute;n de Office<br>
+            <input type="range" min="0" max="10" value="10"> 
+            </li>
+            <li>Curso de N&uacute;cleo General I<br>
+            <input type="range" min="0" max="10" value="8">
+            </li>
+            <li>Ingles I<br>
+            <input type="range" min="0" max="10" value="10">
+            </li>
+            <li>Promedio: <input type="number" value="9.5"></li>
+          </ol>
+        </li>
+        <br>
+        <li>
+          Semestre II
+          <!--Lista de materias del semestre-->
+          <ol type="I">
+            <li>Matem&aacute;ticas I<br>
+              <meter type="range" min="0" max="100" value="75"></meter>
+            </li>
+            <li>F&iacute;sica  I<br>
+              <meter type="range" min="0" max="100" value="70"></meter>
+            </li>
+            <li>Programacion I<br>
+              <meter type="range" min="0" max="100" value="100"></meter>
+            </li>
+            <li>Curso del N&uacute;cleo Optativo I: Programacion Web I<br>
+              <meter type="range" min="0" max="100" value="90"></meter>
+            </li>
+            <li>Curso de N&uacute;cleo General II<br>
+              <meter type="range" min="0" max="100" value="95"></meter>
+            </li>
+            <li>Ingles II<br>
+              <meter type="range" min="0" max="100" value="85"></meter>
+            </li>
+            <li>Promedio: <input type="number" value="9"></li>
+          </ol>
+        </li>
+        <br>
+        <li>
+          Semestre III
+          <!--Lista de materias del semestre-->
+          <ol type="I">
+            <li>Matem&aacute;ticas II<br>
+              <progress type="range" min="0" max="100" value="75"></progress>
+            </li>
+            <li>F&iacute;sica  II<br>
+              <progress type="range" min="0" max="100" value="70"></progress>
+            </li>
+            <li>Programacion II<br>
+              <progress type="range" min="0" max="100" value="100"></progress>
+            </li>
+            <li>Curso del N&uacute;cleo Optativo II: Programacion Web II<br>
+              <progress type="range" min="0" max="100" value="90"></progress>
+            </li>
+            <li>Curso de N&uacute;cleo General III<br>
+              <progress type="range" min="0" max="100" value="95"></progress>
+            </li>
+            <li>Ingles III<br>
+              <progress type="range" min="0" max="100" value="85"></progress>
+            </li>
+            <li>Promedio: <input type="number" value="9"></li>
+          </ol>
+        </li>
+        <br>
+      </ol>
     </fieldset>
   </form>
 
